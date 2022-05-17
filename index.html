@@ -21,13 +21,16 @@
                 </div>
                 <div class="content">
                     <div class="input">
-                        <label for="input">Nhập số nguyên n:</label>
-                        <input type="number" id="input" placeholder="Nhập n">
-                        <button onclick="mang()">Thêm số</button>
-                        <div class="ipt">
-                            <p>Dãy số: </p>
-                            <p id="arr"></p>
-                        </div>
+                        <form>
+                            <label for="input">Nhập số nguyên n:</label>
+                            <input type="number" id="input" placeholder="Nhập n">
+                            <button type="button" onclick="mang()">Thêm số</button>
+                            <button type="submit">reset</button>
+                            <div class="ipt">
+                                <p>Dãy số: </p>
+                                <p id="arr"></p>
+                            </div>
+                        </form>
                     </div>
                     <div class="output">
                         <div class="baitap">
