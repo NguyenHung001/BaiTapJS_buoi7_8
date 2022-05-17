@@ -5,8 +5,8 @@ function mang(){
     arr.push(number);
     document.getElementById('arr').innerHTML = arr;
 }
-//===================================================================>
-// ! Tính tổng các số dương trong mảng
+//!===========================================================>
+// ? Tính tổng các số dương trong mảng
 function tongSoDuong(){
     let tong = 0;
     for(var i = 0 ; i < arr.length ; i++){
@@ -16,8 +16,8 @@ function tongSoDuong(){
     }
     document.getElementById('result1').innerHTML = tong;
 }
-//===================================================================>
-// ! Đếm số dương trong mảng
+//!===========================================================>
+// ? Đếm số dương trong mảng
 function demSoDuong(){
     let dem = 0;
     for(var i = 0 ; i < arr.length ; i++){
@@ -27,8 +27,8 @@ function demSoDuong(){
     }
     document.getElementById('result2').innerHTML = dem;
 }
-//===================================================================>
-// ! Tìm số nhỏ nhất trong mảng
+//!===========================================================>
+// ? Tìm số nhỏ nhất trong mảng
 function soNhoNhat(){
     let min = arr[0];
     for(var i = 1 ; i < arr.length ; i++){
@@ -38,8 +38,8 @@ function soNhoNhat(){
     }
     document.getElementById('result3').innerHTML = min;
 }
-//===================================================================>
-// ! Tìm số dương nhỏ nhất trong mảng
+//!===========================================================>
+// ? Tìm số dương nhỏ nhất trong mảng
 function soDuongNhoNhat(){
     let soDuongmin = arr[0];
     for(var i = 0 ; i < arr.length ; i++){
@@ -55,8 +55,8 @@ function soDuongNhoNhat(){
     }
     document.getElementById('result4').innerHTML = soDuongmin;
 }
-//===================================================================>
-// ! Tìm số chẵn cuối cùng trong mảng
+//!===========================================================>
+// ? Tìm số chẵn cuối cùng trong mảng
 function soChanCuoiCung(){
     let soChanCuoi = -1;
     for(var i = (arr.length-1) ; i >= 0 ; i--){
@@ -67,8 +67,8 @@ function soChanCuoiCung(){
     }
     document.getElementById('result5').innerHTML = soChanCuoi;
 }
-//===================================================================>
-// ! Đổi chỗ 2 giá trị
+//!===========================================================>
+// ? Đổi chỗ 2 giá trị
 function changeLocution(){
     let vt1 = Number(document.getElementById('vt1').value);
     let vt2 = Number(document.getElementById('vt2').value);
@@ -82,8 +82,8 @@ function changeLocution(){
     }
     document.getElementById('result6').innerHTML = arr;
 }
-//===================================================================>
-// ! Sắp xếp mảng theo thứ tự tăng dần
+//!===========================================================>
+// ? Sắp xếp mảng theo thứ tự tăng dần
 function sortAscending(){
     for(var i = 0 ; i < arr.length ; i++){
         let mid = 0;
@@ -99,8 +99,8 @@ function sortAscending(){
     }
     document.getElementById('result7').innerHTML = arr;
 }
-//===================================================================>
-// ! Tìm số nguyên tố đầu tiên trong mảng
+//!===========================================================>
+// ? Tìm số nguyên tố đầu tiên trong mảng
 function SNT(){
     let soNT = -1;
     let dem = -1;
@@ -119,8 +119,8 @@ function SNT(){
     }
     document.getElementById('result8').innerHTML = soNT;
 }
-//===================================================================>
-// ! Đếm số lượng số nguyên trong mảng
+//!===========================================================>
+// ? Đếm số lượng số nguyên trong mảng
     let arrBai9 = [];
 // * Thêm mảng
 function mangBai9(){
@@ -137,7 +137,8 @@ function demSoNguyen(){
     }
     document.getElementById('result9').innerHTML = dem;
 }
-// ! So sánh số lượng số âm và số dương
+//!===========================================================>
+// ? So sánh số lượng số âm và số dương
 function soSanh(){
     let demSA = 0;
     let demSD = 0;

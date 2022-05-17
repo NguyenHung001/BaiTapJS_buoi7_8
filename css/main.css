@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 body,html{
-    background-color: #eee;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    /* background-image: url(https://c8.alamy.com/comp/2D9N00E/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming-language-computer-courses-training-2D9N00E.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 .bdhtml{
     display: flex;
@@ -44,11 +40,19 @@ input{
     padding: 3px 0 3px 10px;
     border-radius: 5px;
 }
-p{
+p,label{
     margin-bottom: 0;
+    font-size: 17px;
 }
-.baitap{
-    margin-bottom: 20px;
+.kq p{
+    font-size: 24px;
+}
+h1{
+    font-weight: 900;
+
+}
+i{
+    font-size: 25px;
 }
 .bt__title{
     padding: 8px 50px;
@@ -56,6 +60,7 @@ p{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-shrink: 0;
 }
 .bt__title p:first-of-type{
     margin-right: 20px;
@@ -68,7 +73,50 @@ p{
     background-color: #00FF00;
     font-weight: 700;
 }
-.kq,.ipt{
+.kq{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.input{
+    margin-bottom: 20px;
+}
+.output{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+form{
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+label{
+    font-size: 25px;
+}
+.bt__content button{
+    margin: 10px 0;
+}
+button{
+    padding: 10px 17px;
+    border-radius: 30px;
+    font-weight: 700;
+    background-color: #00BFFF;
+    transition: all .1s;
+}
+button:hover{
+    padding: 9px 15px;
+}
+.vitri{
+    margin-top: 5px;
+}
+.baitap{
+    height: 250px;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+.bt__content{
+    padding-left: 10px;
+    flex: 1;
 }
