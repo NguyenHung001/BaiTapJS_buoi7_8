@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    /* background-image: url(https://c8.alamy.com/comp/2D9N00E/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming-language-computer-courses-training-2D9N00E.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.bdhtml{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+}
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.973);
+    width: 100%;
+}
+.box{
+    height: 100%;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.box .content{
+    flex: 1;
+}
+.box .title{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.493);
+    flex-shrink: 0;
+}
+input{
+    border: 0;
+    outline: 0;
+    padding: 3px 0 3px 10px;
+    border-radius: 5px;
+}
+p{
+    margin-bottom: 0;
+}
+.baitap{
+    margin-bottom: 20px;
+}
+.bt__title{
+    padding: 8px 50px;
+    background-color: 	#483D8B;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bt__title p:first-of-type{
+    margin-right: 20px;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    background-color: #00FF00;
+    font-weight: 700;
+}
+.kq,.ipt{
+    display: flex;
+    gap: 20px;
+}
